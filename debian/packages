@@ -1,0 +1,42 @@
+## debian/packages for flemon (unofficial)
+## by Diego J. Brengi
+
+Source: flemon
+Section: electronic
+Priority: optional
+Maintainer: Diego J. brengi <brengi@inti.gob.ar>
+Standards-Version: 0.0.03
+Upstream-Source: <URL:http://sourceforge.net/projects/fpgalibre>
+Home-Page: <URL:http://fpgalibre.sourceforge.net/ >
+Description: Flemon
+Copyright: GPL
+ Copyright (c) 2007-2009 Diego Brengi <brengi@inti.gob.ar>
+ Copyright (c) 2007-2009 Instituto Nacional de Tecnología Industrial
+Major-Changes:
+Build: sh
+ #echo "Nothing to do"
+Clean: sh
+ #echo "Nothing to do"
+
+Package: flemon
+Architecture: i386
+Depends: libc6, libreadline4 | libreadline5, libelf1
+#Conflicts:
+Description: FPGALibre LEon MONitor
+ Flemon is a tool to debug a LEON/GRLIB system.
+ It communicates with the AHBUART (AMBA Serial Debug Interface) to get 
+ available IP cores information. You can also download an elf binary to
+ flash memory. Flemon is experimental software under development.
+ .
+ Flemonspy is simple porotocol analyzer for messages between monitor software
+ and AHBUART. You can use it with Flemon or with other software.
+Install: sh
+ yada install -bin flemon flemonspy
+ yada install -doc doc/readme.txt doc/leeme.txt doc/README.Debian config
+ yada install -into /usr/share/flemon devices
+Postinst: bash
+ #echo "Nothing"
+Postrm: bash
+ #echo "Nothing"
+
+

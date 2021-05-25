@@ -1,0 +1,11 @@
+flemon (0.3-2) UNRELEASED; urgency=low
+
+  * Experimental support for Ethernet.
+
+ -- Diego J. Brengi <brengi@inti.gob.ar>  Thu, 07 Oct 2010 11:34:25 -0300
+
+flemon (0.2-1) UNRELEASED; urgency=low
+
+  * Initial release.
+
+ -- Diego J. Brengi <brengi@inti.gob.ar>  Mon,  1 Sep 2008 16:15:54 -0300

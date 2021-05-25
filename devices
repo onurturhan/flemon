@@ -1,0 +1,131 @@
+#------------------------------------------------------------------
+# Copyright (c) 2007-2009 Diego J. Brengi <brengi at inti gov ar>
+# Copyright (c) 2007-2009 Instituto Nacional de Tecnología Industrial
+#------------------------------------------------------------------
+# FLEMon : FPGALibre LEON Monitor.
+#
+#Device ID & Vendors file.
+#You can easily add new devices or change descriptions.
+#Just edit this file.
+#Syntax:
+# VENDOR=0xID="Vendor Name" #Optional Comment
+# 0xNNN="Device name..."    #Optional Comment
+# Where ID is the vendor ID for the following devices and
+# NNN is the hex Device ID value. Uppercase or lowercase.
+#You can obtain device IDs from grlib-gpl-XXX/doc/grip.pdf
+#Also from "info drv" inside grmon.
+
+VENDOR=0x01="Gaisler Research"
+ 0x002="LEON2 Debug Support Unit"
+ 0x003="LEON3 SPARC V8 Processor"
+ 0x004="LEON3 Debug Support Unit"
+ 0x005="10/100 Mbit Ethernet MAC"
+ 0x006="AHB/APB Bridge with Plug&Play"
+ 0x007="AHB Debug UART"
+ 0x008="8/32bit Sram/Prom Mem Controller"
+ 0x009="32-bit PC133 SDRAM Controller"
+ 0x00A="32 Bit Synchronous SRAM (SSRAM) Controller"
+ 0x00C="Generic APB UART"
+ 0x00d="LEON3 Multi proccess Interrupt Ctrl"
+ 0x00e="Single Port static RAM with AHB interface"
+ 0x011="Modular Timer Unit"
+ 0x012="32-bit target-only PCI interface"
+ 0x014="32-bit PCI Master/target interface with FIFO"
+ 0x015="32-bit PCI Trace Buffer"
+ 0x016="DMA Controller for PCI MTF"
+ 0x017="AHB Trace Buffer"
+ 0x018="Ethernet Debug Link"
+ 0x019="CAN 2.0 MAC with AHB interface (Opencores)"
+ 0x01a="General purpose I/O port"
+ 0x01B="ROM Generator with AHB interface"
+ 0x01c="JTAG/AHB Debug Interface"
+ 0x01d="GR Ethernet MAC"
+ 0x01f="SpaceWire Link with RMAP"
+ 0x020="AHB to AHB Bridge"
+ 0x021="USB 2.0 Function Control"
+ 0x022="USB 2.0 Debug Comunication Link"
+ 0x023="8to64-bit DDR controller, 2 ports (Xilinx)"
+ 0x024="IDE/ATA Controller"
+ 0x025="Single port 16/32/64 DDR266 Controller"
+ 0x026="USB EHCI Controller"
+ 0x027="USB UHCI Controller"
+ 0x028="AMBA Wrapper for OC I2C master"
+ 0x02d="SPI Controller"
+ 0x02b="PROM and I/O Nuhorizons Spartan3 interface"
+ 0x030="CCSDS Telemetry Encoder"
+ 0x031="CCSDS Telecommand Decoder"
+ 0x032="Packetwire Receiver with AHB Interface"
+ 0x033="CCSDS Time Manager"
+ 0x040="AHB Master Simulation Model with Scripting"
+ 0x041="AHB Slave Simulation Model with Scripting"
+ 0x050="RAM With AHB Interface and EDAC Protection"
+ 0x051="Fault Tolerant 32-bit PROM/SRAM/IO Contr"
+ 0x052="AHB Status register (failing address)"
+ 0x054="PROM/SDRAM/SRAM Controller with EDAC"
+ 0x053="Fault Tolerant SPARC V8 32-bit Processor"
+ 0x055="32/64-bit PC133 SDRAM Controller with EDAC"
+ 0x056="8bit SRAM/16bit IO Memory Controller w. EDAC"
+ 0x060="APB Keyboard PS/2 interface"
+ 0x061="Text only VGA controller"
+ 0x062="On Chip Logic Analizer"
+ 0x063="SVGA video frame buffer"
+ 0x070="1553 Bus Controller with AHB Interface"
+ 0x071="1553 Remote Terminal with AHB Interface"
+ 0x072="1553 BC/RT/Monitor with AHB Interface"
+ 0x073="128-bit AES Encryption/Decryption Cores"
+ 0x074="Elliptic Curve Cryptography Core"
+ 0x075="AMBA Wrapper for Core PCIF"
+ 0xfff="AHB BUS Plug&Play info (inferred)"
+ 0xffe="APB BUS Plug&Play info (inferred)"
+
+VENDOR=0x02="Pender Electronic Design"
+
+VENDOR=0x04="European Space Agency"
+ 0x002="LEON2 SPARC V8 Processor"
+ 0x003="LEON2 Peripheral Bus"
+ 0x005="LEON2 Interrupt Ctrl"
+ 0x006="LEON2 Timer Unit"
+ 0x007="LEON2 UART Unit"
+ 0x008="LEON2 Configuration register"
+ 0x009="LEON2 I/O port"
+ 0x00f="8/16/32bit PROM/IO/SRAM/SDRAM LEON2 Mem Ctrl"
+ 0x010="PCI Bus Arbitrer"
+ 0x013="AHB Debug UART"
+ 0x016="LEON2 Secondary Interrupt Controller"
+ 0x017="LEON2 AHB Status and Failing Address"
+ 0x018="LEON2 Write Protection"
+ 0x019="LEON2 Write Protection 2"
+
+VENDOR=0x06="Astrium EADS"
+
+VENDOR=0x07="OpenChip.org"
+
+VENDOR=0x08="OpenCores.org"
+
+VENDOR=0x0B="Eonic BV"
+
+VENDOR=0x0F="Radionor"
+
+VENDOR=0x10="Gleichmann Electronics"
+ 0x001="Custom Core"
+ 0x002="Graphics System GEOLCD"
+ 0x003="Sigma Delta DAC"
+
+VENDOR=0x11="Menta"
+
+VENDOR=0x13="Sun Microsystems"
+
+VENDOR=0x14="Movidia"
+
+VENDOR=0x17="Orbita"
+
+VENDOR=0x1A="Siemens AG"
+
+VENDOR=0xCA="Caltech"
+
+VENDOR=0xEA="Embeddit"
+
+VENDOR=0xF0="FPGALibre"
+
+VENDOR=0xF1="Instituto Nac. de Tecnología Industrial"
+

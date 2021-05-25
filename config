@@ -1,0 +1,14 @@
+#Example configuration File for FLeMon.
+#Options are exactly as command line.
+#Comments like this only at the beginning of a Line.
+
+--device=/dev/ttyS0
+#--baud=9600
+#--vlist=/tmp/vendors
+#--dlist=/tmp/devices
+#--apb
+#--ahb
+#--mem
+
+ 
+
