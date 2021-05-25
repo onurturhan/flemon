@@ -52,7 +52,14 @@ PRegEx::PRegEx(const char *str, int flags)
  if (!compiled) throw ExPCRE(error);
  extra=pcre_study(compiled,0,&error);
  if (error) throw ExPCRE(error);
- cSubExps=(pcre_info(compiled,0,0)+1)*3;
+ 
+#if 0 //(O.T.): pcre_info deprecated 
+ cSubExps=(pcre_info(compiled,0,0)+1)*3; 
+#else 
+ pcre_fullinfo(compiled,0,PCRE_INFO_CAPTURECOUNT, &cSubExps);
+ cSubExps = (cSubExps + 1) * 3;
+#endif 
+
  subExps=new int[cSubExps];
 }
 
